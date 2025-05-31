@@ -1,0 +1,8 @@
+.idea
+frontend/node_modules
+backend/build
+backend/.gradle
+/backend/gradle/wrapper/gradle-wrapper.jar
+commons/.gradle
+commons/build
+/commons/gradle/wrapper/gradle-wrapper.jar
