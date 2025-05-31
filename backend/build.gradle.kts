@@ -33,7 +33,7 @@ dependencies {
 group = "com.example"
 version = "0.0.1-SNAPSHOT"
 description = "betting"
-java.sourceCompatibility = JavaVersion.VERSION_17
+java.sourceCompatibility = JavaVersion.VERSION_21
 
 publishing {
     publications.create<MavenPublication>("maven") {

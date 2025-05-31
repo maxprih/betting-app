@@ -10,7 +10,7 @@ version = "0.0.1-SNAPSHOT"
 
 java {
     toolchain {
-        languageVersion = JavaLanguageVersion.of(17)
+        languageVersion = JavaLanguageVersion.of(21)
     }
 }
 
@@ -28,8 +28,8 @@ dependencies {
     runtimeOnly("org.postgresql:postgresql:42.6.0")
     implementation("org.bebra:commons:1.1-SNAPSHOT")
     testRuntimeOnly("org.junit.platform:junit-platform-launcher")
-    compileOnly("org.projectlombok:lombok:1.18.22")
-    annotationProcessor("org.projectlombok:lombok:1.18.22")
+    compileOnly("org.projectlombok:lombok:1.18.30")
+    annotationProcessor("org.projectlombok:lombok:1.18.30")
 }
 dependencyManagement {
     imports {
